@@ -1,0 +1,39 @@
+{
+  "isOverlayVisible": true,
+  "backgroundTransparency": 204,
+  "keyTransparency": 204,
+  "activeLayout": "Custom",
+  "enableKeyHighlighting": true,
+  "showOverlayBackground": false,
+  "showKeyBackground": false,
+  "keyBorderColor": "#462610ff",
+  "keyBorderColorPressed": "#a11e1eff",
+  "keyFontColor": "#a32828ff",
+  "keyFontColorPressed": "#FFFF00",
+  "shiftFontColor": "#9b2929ff"
+}
+
+// Configuration Options:
+// 
+// isOverlayVisible: true/false - Whether overlay is shown on startup
+// backgroundTransparency: 50-255 - Background opacity (50=very transparent, 255=opaque)
+// keyTransparency: 50-255 - Key opacity (50=very transparent, 255=opaque)
+// activeLayout: "Qwerty" or "Custom" - Which layout to show on startup
+// enableKeyHighlighting: true/false - Enable real-time key press highlighting
+// showOverlayBackground: true/false - Show dark background behind the overlay
+// showKeyBackground: true/false - Show background fill for individual keys
+// keyBorderColor: "#RRGGBB" - Hex color for key borders (default: "#FF6A00" orange)
+// keyBorderColorPressed: "#RRGGBB" - Hex color for pressed key borders (default: "#FFFFFF" white)
+// keyFontColor: "#RRGGBB" - Hex color for key text (default: "#FFFFFF" white)
+// keyFontColorPressed: "#RRGGBB" - Hex color for pressed key text (default: "#FFFF00" yellow)
+// shiftFontColor: "#RRGGBB" - Hex color for shift characters (default: "#FFFFFF" white)
+//
+// Global Hotkeys (cannot be changed):
+// F24 - Toggle overlay visibility
+// F13+Q - Switch to QWERTY layout  
+// F13+X - Switch to Custom Split layout
+//
+// The configuration file is automatically created as 'layout-overlay-config.json' 
+// in the same directory as the executable when you first run the application.
+// Edit that file to change settings, then right-click the system tray icon 
+// and select "Reload Configuration" to apply changes.
